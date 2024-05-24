@@ -1,0 +1,42 @@
+/* QPushButton */
+QPushButton {
+    background-color: rgb(122, 193, 251);
+    border: 2px solid rgb(4, 4, 4); /* Solid border */
+    color: black;
+    padding: 10px 20px;
+    width: 80px;
+    border-radius: 15px; /* Increase border radius */
+    font-size: 18px;
+    text-align: center;
+}
+
+QPushButton:hover {
+    background-color: #2528bb;
+    border: 2px solid rgb(244, 242, 242);
+    color: #f0f5f1;
+}
+
+QPushButton:pressed {
+    background-color: #2520bb;
+}
+
+/* QLabel */
+QLabel {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* QLineEdit */
+QLineEdit {
+    height: 35px; /* Adjust height */
+    width: 250px; /* Adjust width */
+    border: 2px solid gray;
+    border-radius: 8px; /* Increase border radius */
+    padding: 5px 10px; /* Adjust padding */
+    text-align: left;
+    font-family: "Arial";
+    font-size: 14pt;
+}
+
+/*
